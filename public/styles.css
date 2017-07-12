@@ -1,0 +1,104 @@
+html{
+    background:url(https://static.pexels.com/photos/220201/pexels-photo-220201.jpeg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color:white;
+    font-size: 3rem;
+    margin-top:7%;
+    text-align: center;
+    }
+
+.robots{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.info{
+    background-color: white;
+    border: thin solid lightgray;
+    border-radius: 1%;
+    margin: 1%;
+    padding:1%;
+    text-align: center;
+    width: 18%;
+}
+
+.available{
+    color:#c57b7b;
+    font-size: 1rem;
+}
+.job, .company{
+    font-size: .3rem;
+    color: grey;
+}
+a{
+    color:#4679ca;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+h2{
+    font-size: 40px;
+    margin-left: 60px;
+}
+.pic{
+    background: white;
+    border: thin solid black;
+    border-radius: 50%;
+    height: 150px;
+    margin: 10px;
+}
+
+.individual_container{
+    display: flex;
+    background: ghostwhite;
+    border-radius:1%;
+    padding:10px;
+    border: thin solid black;
+    color: #3c3c3c;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    width: 63%;
+    
+}
+
+.name2{
+    font-size: 40px;
+    color: black;
+}
+
+.robot_info{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top_container{
+    margin-bottom: 70px;
+}
+
+.skills_container{
+    margin-left: 10%;
+    
+    
+}
+
+.skills_container .skills{
+    margin-left: 50px;
+}
+
+b{
+    margin: 15px;
+    line-height: 2;
+    
+}

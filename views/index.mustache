@@ -1,0 +1,27 @@
+<html>
+    <head>
+    <title> Directory </title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    </head>
+    <body>
+    <h3>Directory</h3>
+        <div class='robots'>
+            {{#users}}
+            <div class='info'>
+            <div class='image'>
+            <image src="{{avatar}}"> 
+            </div>
+            <a href= "{{id}}"> {{name}} </a>
+            {{#job}}
+            <div class='job'> {{job}} </div>
+            {{/job}}
+            {{^job}}
+            <div class='available'> availible for hire</div>
+            {{/job}}
+            <div class='company'>{{company}} </div>
+            </div> 
+             {{/users}}
+            </div>
+
+    </body>
+</html>
